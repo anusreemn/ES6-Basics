@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>RMedia</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1 class="logo"><a href="/"><img src="images/logo.jpg" alt="RMedia"></a></h1>
+            <div class="search-wrap">
+                <input type="search" name="search" id="search" placeholder="Search...">
+            </div>
+        </div>
+        <!-- <div class="header-bottom"></div> -->
+    </header>
+    <div class="container">
+        <div class="content">
+        <!-- Left section Start -->
+        <div class="left-sec">
+            <nav>
+                <ul>
+                    <li> <a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <!-- Left section end -->
+
+        <!-- Middle sec start -->
+        <div class="middle-sec">
+            <div class="left-content">
+                <h2>We're here!</h2>
+                <p> Lorem lpsum is simply dummy text of the printing and typesetting industry. 
+                    Lorem lpsum has been the industry's standard dummy text ever since the 1500's,when an
+                    unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                <p>Feel free to get in touch with us.</p>
+            </div>
+            <div class="right-content">
+                <img src="images/main-image.jpg" alt="Rmedia image" class="content-img">    
+            </div>
+            <div class="left-content">
+                <fieldset>
+                    <legend><em>Subscribe to our Updates!</em></legend> 
+                    <form id="contactForm" action="/api/subscribe">
+                        <input type="email" id="emailInput" name="email" required minLength="7" placeholder="Enter Your Email Address">
+                        <input type="button" id="subscribeBtn" value="Subscribe">
+                    </form>
+                </fieldset>
+            </div>
+        </div>
+        <!-- Middle section end -->
+
+        <!-- Right sec start -->
+        <div class="right-sec" id="blogPostsSection">
+            <h3>Latest Posts</h3>
+            <!-- Insert blog posts, if any, here -->
+        </div>
+        <!--  Right sec end-->
+        </div>
+    </div>
+    <footer>
+        <div class="container">
+            <div class="footer-item">
+                <p>lorem lpsum is simply dummy text of the printing and typesetting industry. </p>
+            </div>
+            <div class="footer-item">
+                <p>lorem lpsum is simply dummy text of the printing and typesetting industry. </p>
+            </div>
+            <div class="footer-item">
+                <p>lorem lpsum is simply dummy text of the printing and typesetting industry. </p>
+            </div>
+            <div class="footer-item">
+                <p>lorem lpsum is simply dummy text of the printing and typesetting industry. </p>
+            </div>
+        </div>
+    </footer>
+    <script type="module" src="scripts/main.js"></script>
+</body>
+</html>

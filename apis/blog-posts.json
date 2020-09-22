@@ -1,0 +1,23 @@
+{
+    "posts": [{
+        "blogPostId": 1,
+        "image": "images/post-image.jpg",
+        "blogUrl": ""
+    }, {
+        "blogPostId": 2,
+        "image": "images/post-image.jpg",
+        "blogUrl": ""
+    }, {
+        "blogPostId": 3,
+        "image": "images/post-image.jpg",
+        "blogUrl": ""
+    }, {
+        "blogPostId": 4,
+        "image": "images/post-image.jpg",
+        "blogUrl": ""
+    }],
+    "status": {
+        "message": "",
+        "type": "SUCCESS"
+    }
+}
