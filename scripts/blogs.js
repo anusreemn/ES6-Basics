@@ -3,7 +3,7 @@ import { utils } from './utility.js';
 class BlogPosts {
 
     loadDynamicBlogPosts() {
-        utils.get('/apis/blog-posts.json', function(response) {
+        utils.get('apis/blog-posts.json', function(response) {
             const blogPosts = response.posts;
             if (blogPosts.length) {
                 let ulElm = document.createElement('ul')
