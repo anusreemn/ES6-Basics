@@ -9,7 +9,7 @@ class VacanciesTable {
     }
 
     _fetchTableData() {
-        utils.get('apis/vacancies.json', function(response) {
+        utils.get('./apis/vacancies.json', function(response) {
             const vacancies = response.data;
             if (vacancies && vacancies.length) {
                 this._loadTableData(vacancies)
