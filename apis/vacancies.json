@@ -1,29 +1,5 @@
 {
-    "data": [{
-        "posId": "33",
-        "title": "Senior DevOps Engineer",
-        "location": "San Francisco",
-        "description": null,
-        "status": 0
-    }, {
-        "posId": "21",
-        "title": "Senior React Developer",
-        "location": "Remote",
-        "description": 1,
-        "status": 1
-    }, {
-        "posId": "15",
-        "title": "Senior React Developer",
-        "location": "Remote",
-        "description": 1,
-        "status": 1
-    }, {
-        "posId": "28",
-        "title": "Senior Javascript Developer",
-        "location": "Alabama",
-        "description": 1,
-        "status": 0
-    }],
+    "data": [],
     "status": {
         "message": "",
         "type": "SUCCESS"
